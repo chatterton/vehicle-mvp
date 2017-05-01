@@ -1,5 +1,7 @@
 package jc.vehiclemvp.framework.base;
 
+import io.reactivex.SingleObserver;
+import io.reactivex.disposables.Disposable;
 import jc.vehiclemvp.framework.android.Schedulers;
 
 import java.util.ArrayList;
@@ -11,7 +13,6 @@ import javax.inject.Singleton;
 import io.reactivex.Observable;
 import io.reactivex.Scheduler;
 import io.reactivex.annotations.NonNull;
-import io.reactivex.functions.Consumer;
 import io.reactivex.subjects.BehaviorSubject;
 
 @Singleton
@@ -45,11 +46,18 @@ public class StateManager implements BaseState.Delegate {
         Observable.merge(callbacks)
                 .last(true)
                 .subscribeOn(schedulers.ioThread())
-                .subscribe(new Consumer<Boolean>() {
+                .subscribeWith(new SingleObserver<Boolean>() {
                     @Override
-                    public void accept(@NonNull Boolean aBoolean) throws Exception {
+                    public void onSubscribe(@NonNull Disposable d) {}
+
+                    @Override
+                    public void onSuccess(@NonNull Boolean aBoolean) {
                         initializationSubject.onNext(true);
                     }
+
+                    @Override
+                    public void onError(@NonNull Throwable e) {}
+
                 });
     }
 
