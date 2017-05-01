@@ -1,0 +1,326 @@
+{
+	"response": {
+		"errors": [],
+		"status": "OK",
+		"redirectUrl": null,
+		"result": {
+			"vehicles": [{
+				"name": "XX9992",
+				"longName": "X999 Sedan with Luxury Package",
+				"iselectric": false,
+				"isclassic": false,
+				"vin": "55SWF4KB2FU222222",
+				"subscriptionStatus": "Inactive",
+				"class": "X",
+				"model": "XX9992",
+				"year": "2015",
+				"primary": false,
+				"thumbnailImg": {
+					"picker": {
+						"altText": "Image-For-MediaServer",
+						"displayType": "picker",
+						"desktop": {
+							"src": "http://example.com/wherever"
+						},
+						"mobile": {
+							"src": "http://example.com/wherever"
+						}
+					},
+					"hero": {
+						"altText": "Image-For-MediaServer",
+						"displayType": "hero",
+						"desktop": {
+							"src": "http://example.com/wherever"
+						},
+						"mobile": {
+							"src": "http://example.com/wherever"
+						}
+					}
+				},
+				"ownerLastName": "Willis",
+				"verificationStatus": "verified",
+				"message": "",
+				"hasRadioSerial": false,
+				"hasGlobalNotification": true,
+				"accountType": "",
+				"duration": "",
+				"dates": "",
+				"leaseExpiredMessage": "",
+				"warranty": {
+					"dateMsg": "Expires on Apr. 9, 2019 or 50,000 miles",
+					"elwMsg": "",
+					"label": "Warranty Information"
+				},
+				"ppm": {},
+				"manuals": [{
+					"title": "Download PDF",
+					"subTitle": "Maintenance Manual",
+					"url": "http://example.com/wherever",
+					"size": "767 KB"
+				}, {
+					"title": "Download PDF",
+					"subTitle": "OTHER Manual",
+					"url": "http://example.com/wherever",
+					"size": "5.15 MB"
+				}, {
+					"title": "Download PDF",
+					"subTitle": "Owners Manuals",
+					"url": "http://example.com/wherever",
+					"size": "7.61 MB"
+				}],
+				"maintenanceManualLink": {
+					"title": "Maintenance Manual",
+					"text": "Maintenance Manual",
+					"url": "http://example.com/wherever"
+				},
+				"ownersManualLink": {
+					"title": "Owners Manual",
+					"text": "Owners Manual",
+					"url": "http://example.com/wherever"
+				},
+				"howToVideosLink": {
+					"title": "How-To Videos",
+					"text": "How-To Videos",
+					"url": "http://example.com/wherever"
+				},
+				"accessoriesLink": {
+					"title": "Accessories",
+					"text": "Accessories",
+					"url": "http://example.com/wherever"
+				},
+				"subscriptionFeatures": {
+					"conciergeEnabled": true,
+					"conciergeContact": "18882345432",
+					"remoteStartEnabled": true,
+					"lockUnlockEnabled": true,
+					"hornLightsEnabled": true,
+					"sendToVehicleEnabled": true,
+					"locateVehicleEnabled": true,
+					"drivingJournalEnabled": true,
+					"valetProtectEnabled": true,
+					"curfewMinderEnabled": true
+				},
+				"remoteUpdateHeader": "SOFTWARE UPDATES",
+				"remoteUpdate": [],
+				"remoteUpdateCta": "Your XXXXX will soon be updated with latest features",
+				"lastKnownLocation": {}
+			}, {
+				"name": "VEHICLE",
+				"longName": "VEHICLE",
+				"iselectric": false,
+				"isclassic": false,
+				"vin": "WDCGG8JB2FG999999",
+				"subscriptionStatus": "Active",
+				"class": "CAR",
+				"model": "CAR9994",
+				"year": "2015",
+				"primary": false,
+				"thumbnailImg": {
+					"hero": {
+						"displayType": "hero",
+						"desktop": {
+							"src": "http://example.com/wherever",
+							"width": "1440",
+							"height": "600"
+						},
+						"mobile": {
+							"src": "http://example.com/wherever",
+							"width": "1440",
+							"height": "600"
+						}
+					},
+					"picker": {
+						"displayType": "picker",
+						"desktop": {
+							"src": "http://example.com/wherever",
+							"width": "294",
+							"height": "165"
+						},
+						"mobile": {
+							"src": "http://example.com/wherever",
+							"width": "294",
+							"height": "165"
+						}
+					}
+				},
+				"ownerLastName": "Frend",
+				"verificationStatus": "verified",
+				"message": "",
+				"hasRadioSerial": false,
+				"hasGlobalNotification": true,
+				"accountType": "Lease",
+				"duration": 36,
+				"dates": "Oct. 24, 2014 - Oct. 24, 2017",
+				"leaseExpiredMessage": "",
+				"warranty": {
+					"dateMsg": "Expires on Sep. 9, 2018 or 50,000 miles",
+					"elwMsg": "",
+					"label": "Warranty Information"
+				},
+				"ppm": {
+					"dateMsg": "Active until Jan. 23, 2019 or 45,000 miles",
+					"label": "Prepaid Maintenance Plan"
+				},
+				"manuals": [{
+					"title": "Download PDF",
+					"subTitle": "Maintenance Manual",
+					"url": "http://example.com/wherever",
+					"size": "637 KB"
+				}, {
+					"title": "Download PDF",
+					"subTitle": "OTHER Manual",
+					"url": "http://example.com/wherever",
+					"size": "5.81 MB"
+				}, {
+					"title": "Download PDF",
+					"subTitle": "Owners Manual",
+					"url": "http://example.com/wherever",
+					"size": "6.24 MB"
+				}],
+				"maintenanceManualLink": {
+					"title": "Maintenance Manual",
+					"text": "Maintenance Manual",
+					"url": "http://example.com/wherever"
+				},
+				"ownersManualLink": {
+					"title": "Owners Manual",
+					"text": "Owners Manual",
+					"url": "http://example.com/wherever"
+				},
+				"howToVideosLink": {
+					"title": "How-To Videos",
+					"text": "How-To Videos",
+					"url": "http://example.com/wherever"
+				},
+				"accessoriesLink": {
+					"title": "Accessories",
+					"text": "Accessories",
+					"url": "http://example.com/wherever"
+				},
+				"subscriptionFeatures": {
+					"conciergeEnabled": true,
+					"conciergeContact": "18882345432",
+					"remoteStartEnabled": true,
+					"lockUnlockEnabled": true,
+					"hornLightsEnabled": true,
+					"sendToVehicleEnabled": true,
+					"locateVehicleEnabled": true,
+					"drivingJournalEnabled": true,
+					"valetProtectEnabled": true,
+					"curfewMinderEnabled": true
+				},
+				"remoteUpdateHeader": "SOFTWARE UPDATES",
+				"remoteUpdate": [],
+				"remoteUpdateCta": "Your XXX will soon be updated with latest features",
+				"lastKnownLocation": {}
+			}, {
+				"name": "blinky",
+				"longName": "VEHICLE NAME Coupe",
+				"iselectric": false,
+				"isclassic": false,
+				"vin": "WDDYJAJA2GA999999",
+				"subscriptionStatus": "Active",
+				"class": "CAR",
+				"model": "CAR",
+				"year": "2016",
+				"primary": true,
+				"thumbnailImg": {
+					"picker": {
+						"altText": "Image-For-MediaServer",
+						"displayType": "picker",
+						"desktop": {
+							"src": "http://example.com/wherever"
+						},
+						"mobile": {
+							"src": "http://example.com/wherever"
+						}
+					},
+					"hero": {
+						"altText": "Image-For-MediaServer",
+						"displayType": "hero",
+						"desktop": {
+							"src": "http://example.com/wherever"
+						},
+						"mobile": {
+							"src": "http://example.com/wherever"
+						}
+					}
+				},
+				"ownerLastName": "Guram",
+				"verificationStatus": "verified",
+				"message": "",
+				"hasRadioSerial": false,
+				"hasGlobalNotification": true,
+				"accountType": "Finance",
+				"duration": 9,
+				"dates": "Apr. 28, 2015 - Feb. 1, 2016",
+				"leaseExpiredMessage": "",
+				"warranty": {
+					"dateMsg": "Expires on Apr. 28, 2019 or 50,000 miles",
+					"elwMsg": "",
+					"label": "Warranty Information"
+				},
+				"ppm": {
+					"dateMsg": "Active until Apr. 27, 2021 or 100,000 miles",
+					"label": "Prepaid Maintenance Plan"
+				},
+				"manuals": [{
+					"title": "Download PDF",
+					"subTitle": "Maintenance Manual",
+					"url": "http://example.com/wherever",
+					"size": "461 KB"
+				}, {
+					"title": "Download PDF",
+					"subTitle": "OTHER Manuals",
+					"url": "http://example.com/wherever",
+					"size": "6.53 MB"
+				}, {
+					"title": "Download PDF",
+					"subTitle": "Owners Manuals",
+					"url": "http://example.com/wherever",
+					"size": "6.73 MB"
+				}],
+				"maintenanceManualLink": {
+					"title": "Maintenance Manual",
+					"text": "Maintenance Manual",
+					"url": "http://example.com/wherever"
+				},
+				"ownersManualLink": {
+					"title": "Owners Manual",
+					"text": "Owners Manual",
+					"url": "http://example.com/wherever"
+				},
+				"howToVideosLink": {
+					"title": "How-To Videos",
+					"text": "How-To Videos",
+					"url": "http://example.com/wherever"
+				},
+				"accessoriesLink": {
+					"title": "Accessories",
+					"text": "Accessories",
+					"url": "http://example.com/wherever"
+				},
+				"subscriptionFeatures": {
+					"conciergeEnabled": true,
+					"conciergeContact": "18882345432",
+					"remoteStartEnabled": true,
+					"lockUnlockEnabled": true,
+					"hornLightsEnabled": true,
+					"sendToVehicleEnabled": true,
+					"locateVehicleEnabled": true,
+					"drivingJournalEnabled": true,
+					"valetProtectEnabled": true,
+					"curfewMinderEnabled": true
+				},
+				"remoteUpdateHeader": "SOFTWARE UPDATES",
+				"remoteUpdate": [],
+				"lastKnownLocation": {}
+			}],
+			"csrf": {
+				"headerName": "X-CSRF-TOKEN",
+				"parameterName": "_csrf",
+				"token": "e3e2e23f-6cf1-45bc-8097-4c6d91739590"
+			}
+		}
+	}
+}

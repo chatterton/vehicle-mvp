@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Vehicle MVP Demo</string>
+
+    <string name="splash_title">SPLASH\nSCREEN</string>
+    <string name="loading">Loading ...</string>
+
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+
+</resources>

@@ -1,0 +1,13 @@
+{
+  "response": {
+    "errors": [],
+    "status": "OK",
+    "redirectUrl": null,
+    "result": {
+      "primary": false,
+      "paired": false,
+      "preferredDealerSet": false,
+      "touchIDSkipped": true
+    }
+  }
+}
