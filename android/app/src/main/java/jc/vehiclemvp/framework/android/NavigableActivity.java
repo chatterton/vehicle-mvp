@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toolbar;
 
+import butterknife.BindView;
 import jc.vehiclemvp.VehicleApplication;
 import jc.vehiclemvp.framework.base.NavigableScreen;
 import jc.vehiclemvp.framework.base.NavigationPresenter;
@@ -16,17 +17,15 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import butterknife.Bind;
-
 public abstract class NavigableActivity extends BaseActivity implements NavigableScreen {
 
     @Inject
     NavigationPresenter navigationPresenter;
 
-    @Bind(jc.vehiclemvp.R.id.navigable_drawer_layout) DrawerLayout drawerLayout;
-    @Bind(jc.vehiclemvp.R.id.navigable_content_toolbar) Toolbar toolbar;
-    @Bind(jc.vehiclemvp.R.id.navigable_left_drawer) View leftDrawer;
-    @Bind(jc.vehiclemvp.R.id.navigable_left_drawer_layout) ViewGroup leftDrawerLayout;
+    @BindView(jc.vehiclemvp.R.id.navigable_drawer_layout) DrawerLayout drawerLayout;
+    @BindView(jc.vehiclemvp.R.id.navigable_content_toolbar) Toolbar toolbar;
+    @BindView(jc.vehiclemvp.R.id.navigable_left_drawer) View leftDrawer;
+    @BindView(jc.vehiclemvp.R.id.navigable_left_drawer_layout) ViewGroup leftDrawerLayout;
 
     @Override
     public void onCreateScreen(Serializable state) {

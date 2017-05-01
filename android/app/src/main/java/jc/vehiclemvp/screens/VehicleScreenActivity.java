@@ -3,6 +3,7 @@ package jc.vehiclemvp.screens;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import butterknife.BindView;
 import jc.vehiclemvp.VehicleApplication;
 import jc.vehiclemvp.framework.android.NavigableActivity;
 import jc.vehiclemvp.presenters.VehicleScreenPresenter;
@@ -12,13 +13,12 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import butterknife.Bind;
 import butterknife.OnClick;
 
 public class VehicleScreenActivity extends NavigableActivity implements VehicleScreen {
 
-    @Bind(jc.vehiclemvp.R.id.vehicle_list) TextView vehicleListText;
-    @Bind(jc.vehiclemvp.R.id.vehicle_new_text) EditText vehicleNewText;
+    @BindView(jc.vehiclemvp.R.id.vehicle_list) TextView vehicleListText;
+    @BindView(jc.vehiclemvp.R.id.vehicle_new_text) EditText vehicleNewText;
 
     @Inject VehicleScreenPresenter presenter;
 

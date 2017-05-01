@@ -3,6 +3,7 @@ package jc.vehiclemvp.screens;
 import android.view.View;
 import android.widget.TextView;
 
+import butterknife.BindView;
 import jc.vehiclemvp.VehicleApplication;
 import jc.vehiclemvp.framework.android.BaseActivity;
 import jc.vehiclemvp.presenters.SplashScreenPresenter;
@@ -11,11 +12,9 @@ import java.io.Serializable;
 
 import javax.inject.Inject;
 
-import butterknife.Bind;
-
 public class SplashScreenActivity extends BaseActivity implements SplashScreen {
 
-    @Bind(jc.vehiclemvp.R.id.splash_loading) TextView loadingText;
+    @BindView(jc.vehiclemvp.R.id.splash_loading) TextView loadingText;
 
     @Inject SplashScreenPresenter presenter;
 
