@@ -50,8 +50,9 @@ public abstract class BaseActivity extends Activity implements BaseScreen {
     }
 
     @Override
-    public final void finish() {
-        super.finish();
+    public final void onDestroy() {
+        onFinishScreen();
+        super.onDestroy();
     }
 
     ///// BaseScreen Lifecycle
@@ -64,11 +65,6 @@ public abstract class BaseActivity extends Activity implements BaseScreen {
     @Override
     public void onResumeScreen() {
         // stub
-    }
-
-    @Override
-    public void finishScreen() {
-        finish();
     }
 
     protected abstract Integer getLayoutResourceId();

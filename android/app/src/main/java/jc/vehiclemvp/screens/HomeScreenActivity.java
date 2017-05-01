@@ -21,6 +21,11 @@ public class HomeScreenActivity extends NavigableActivity implements HomeScreen 
     }
 
     @Override
+    public void onFinishScreen() {
+        presenter.unbindView();
+    }
+
+    @Override
     protected Integer getLayoutResourceId() {
         return jc.vehiclemvp.R.layout.activity_home_screen;
     }

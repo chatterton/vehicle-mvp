@@ -8,7 +8,7 @@ public interface BaseScreen extends BaseView {
 
     void onResumeScreen();
 
-    void finishScreen();
+    void onFinishScreen();
 
     void showProgressSpinner();
 

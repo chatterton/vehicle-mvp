@@ -38,6 +38,11 @@ public class SplashScreenActivity extends BaseActivity implements SplashScreen {
     }
 
     @Override
+    public void onFinishScreen() {
+        presenter.unbindView();
+    }
+
+    @Override
     public void showLoadingText() {
         loadingText.setVisibility(View.VISIBLE);
     }

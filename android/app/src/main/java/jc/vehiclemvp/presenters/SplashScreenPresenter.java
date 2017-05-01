@@ -29,6 +29,11 @@ public class SplashScreenPresenter extends BaseScreenPresenter<SplashScreen> {
         super.bindView(view);
     }
 
+    @Override
+    public void unbindView() {
+        super.unbindView();
+    }
+
     public void screenResumedAction() {
         int duration = platformLiteralStore.getInteger(PlatformLiteralStore.Key.SPLASH_SCREEN_DURATION_SECONDS);
 

@@ -30,6 +30,11 @@ public class VehicleScreenActivity extends NavigableActivity implements VehicleS
     }
 
     @Override
+    public void onFinishScreen() {
+        presenter.unbindView();
+    }
+
+    @Override
     protected Integer getLayoutResourceId() {
         return jc.vehiclemvp.R.layout.activity_vehicle_screen;
     }
